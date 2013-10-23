@@ -1,0 +1,111 @@
+# depslib dependency file v1.0
+1380364775 source:c:\users\tau\workspace_emblocks\stm32f4_audio\src\startup_stm32f4xx.s
+
+1382548982 source:c:\users\tau\workspace_emblocks\stm32f4_audio\src\system_stm32f4xx.c
+	"stm32f4xx.h"
+
+1380833185 c:\users\tau\workspace_emblocks\stm32f4_audio\inc\stm32f4xx.h
+	"core_cm4.h"
+	"system_stm32f4xx.h"
+	<stdint.h>
+	"stm32f4xx_conf.h"
+
+1380364775 c:\users\tau\workspace_emblocks\stm32f4_audio\inc\system_stm32f4xx.h
+
+1382561881 source:c:\users\tau\workspace_emblocks\stm32f4_audio\src\main.c
+	"stm32f4xx.h"
+	"main.h"
+	"hardware_Init.h"
+	"integer.h"
+	"diskio.h"
+	"ff.h"
+	"audio_if.h"
+	"stdbool.h"
+
+1380842885 source:c:\users\tau\workspace_emblocks\stm32f4_audio\src\diskio.c
+	"diskio.h"
+	"usbdisk.h"
+	"sdcard.h"
+
+1380826928 c:\users\tau\workspace_emblocks\stm32f4_audio\inc\diskio.h
+	"integer.h"
+
+1272149122 c:\users\tau\workspace_emblocks\stm32f4_audio\inc\integer.h
+	<windows.h>
+	<tchar.h>
+
+1380831412 c:\users\tau\workspace_emblocks\stm32f4_audio\inc\sdcard.h
+	"diskio.h"
+
+1380474053 source:c:\users\tau\workspace_emblocks\stm32f4_audio\src\ff.c
+	"ff.h"
+	"diskio.h"
+	"ffconf.h"
+	<stdarg.h>
+
+1358986018 c:\users\tau\workspace_emblocks\stm32f4_audio\inc\ff.h
+	"integer.h"
+	"ffconf.h"
+
+1381948261 c:\users\tau\workspace_emblocks\stm32f4_audio\inc\ffconf.h
+
+1380830841 c:\users\tau\workspace_emblocks\stm32f4_audio\inc\usbdisk.h
+	"integer.h"
+
+1380472601 source:c:\users\tau\workspace_emblocks\stm32f4_audio\src\usbdisk.c
+	"usbdisk.h"
+	"integer.h"
+
+1380982567 source:c:\users\tau\workspace_emblocks\stm32f4_audio\src\sdcard.c
+	"sdcard.h"
+	"integer.h"
+	"spi_sdcard.h"
+	"diskio.h"
+
+1382476906 c:\users\tau\workspace_emblocks\stm32f4_audio\inc\hardware_init.h
+	"stm32f4xx.h"
+
+1382562284 source:c:\users\tau\workspace_emblocks\stm32f4_audio\src\hardware_init.c
+	"stm32f4xx.h"
+	"hardware_Init.h"
+
+1381441908 source:c:\users\tau\workspace_emblocks\stm32f4_audio\src\spi_sdcard.c
+	"stm32f4xx.h"
+	"spi_sdcard.h"
+	"main.h"
+
+1380833306 c:\users\tau\workspace_emblocks\stm32f4_audio\inc\spi_sdcard.h
+	"stm32f4xx.h"
+	"diskio.h"
+	"hardware_init.h"
+
+1381855704 source:c:\users\tau\workspace_emblocks\stm32f4_audio\src\i2c.c
+	"stm32f4xx.h"
+	"i2c.h"
+	"integer.h"
+
+1381855704 c:\users\tau\workspace_emblocks\stm32f4_audio\inc\i2c.h
+	"stm32f4xx.h"
+	"integer.h"
+
+1382564046 source:c:\users\tau\workspace_emblocks\stm32f4_audio\src\audio_if.c
+	"stm32f4xx.h"
+	"audio_if.h"
+	"main.h"
+
+1381855788 c:\users\tau\workspace_emblocks\stm32f4_audio\inc\audio_if.h
+	"i2c.h"
+	"i2s.h"
+
+1382476782 c:\users\tau\workspace_emblocks\stm32f4_audio\inc\i2s.h
+	"stm32f4xx.h"
+
+1381441854 c:\users\tau\workspace_emblocks\stm32f4_audio\inc\main.h
+
+1382563843 source:c:\users\tau\workspace_emblocks\stm32f4_audio\src\i2s.c
+	"i2s.h"
+	"stm32f4xx.h"
+	"hardware_Init.h"
+
+1381577601 source:c:\users\tau\workspace_emblocks\stm32f4_audio\src\interrupts.c
+
